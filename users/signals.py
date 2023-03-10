@@ -29,6 +29,7 @@ def createProfile(sender,instance,created,**kwargs):
 
     send_mail(
         subject,
+        
         message,
         settings.EMAIL_HOST_USER,
         [profilee.email],
